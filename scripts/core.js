@@ -71,8 +71,8 @@ function gameDataConstructor() {
         tickRate: 10, // The number of ticks per second.
         lastTick: new Date().getTime(), // The time that the last tick occurred
         autoSaveTimer: 0, // Increases every tick so that the game doesn't auto save every tick.
-        dataHacked: 0, // Data, less what has been spent.
-        totalDataHacked: 0, // The total amount of data that has been hacked.
+        dataHacked: 999999999999, // Data, less what has been spent.
+        totalDataHacked: 999999999999, // The total amount of data that has been hacked.
         maxAchievements: 20, // The max number of allowed achievements for each item.
         achievementTabSelected: false, // The ach tab won't flash if the player is already on it.
         flashAchTab: false, // Whether the ach tab is set to flash.
